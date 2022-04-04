@@ -1,1 +1,4 @@
 RIFQI LUTFAN PADL
+1207050106
+Basis Data
+Tugas 1
