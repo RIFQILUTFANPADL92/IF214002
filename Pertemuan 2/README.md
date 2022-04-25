@@ -55,6 +55,6 @@ photo
 - Lokasi
 - photto
 
-##Diagram chen:
+## Diagram chen:
 ![image](https://user-images.githubusercontent.com/101303689/165087735-fcf75eb2-fe8b-4d65-91a7-0be900b0d943.png)
 
