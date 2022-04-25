@@ -31,6 +31,7 @@ Perintah-perintah untuk menangani transaksi dalam database.
 - ROLLBACK : Mengembalikan database ke bentuk awal / COMMIT terakhir.
 2) MySQL Sistem Pemesanan Tiket Objek Pariwisata Situ Bagendit
 Membuat Tabel
+```sql
 CREATE TABLE `detail_booking` (
   `id_detail_pem` int(8) NOT NULL,
   `id_booking` int(8) NOT NULL,
@@ -175,4 +176,4 @@ ALTER TABLE `tiket`
 ALTER TABLE `user`
   ADD CONSTRAINT `user_ibfk_1` FOREIGN KEY (`kode_pos`) REFERENCES `kode_pos` (`kode_pos`);
 COMMIT;
-
+```
