@@ -86,3 +86,5 @@ photo
 
 
 ## ERD Crow Foot:
+![image](https://user-images.githubusercontent.com/101303689/165088713-a1c0b387-efe2-44c1-9c2e-f11f19fa3983.png)
+![image](https://user-images.githubusercontent.com/101303689/165088787-e5e93536-9dc5-45c0-b6d3-806ee3b90d7f.png)
