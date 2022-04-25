@@ -56,3 +56,5 @@ photo
 - photto
 
 ## Erd Crow foot:
+![image](https://user-images.githubusercontent.com/101303689/165088139-2db754ea-3cfe-45dc-87ad-4181de5a711f.png)
+![image](https://user-images.githubusercontent.com/101303689/165088192-f71a4756-0813-42d8-972f-4eb4f9f72413.png)
