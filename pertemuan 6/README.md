@@ -25,6 +25,6 @@ Pembuatan tabel baru :
 - Menambahkan tebel kode_pos yang merupakan extend dari tabel user, supaya alamat user lebih lengkap
 - Menambahkan tebel jenis_pembayaran yang merupakan extend dari tabel pembayaran, supaya pembayaran dapat dilakukan melalui berbagai jenis pembayaran
 
-# ERD Crow foot Database
-- Setelah normalisasi
+## ERD Crow foot Database
+# Setelah normalisasi
 ![image](https://user-images.githubusercontent.com/101303689/165089201-256d1f6e-6f5f-402f-86c6-c5690be8acf9.png)
