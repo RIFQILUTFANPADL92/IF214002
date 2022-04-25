@@ -73,3 +73,5 @@ photo
 - Each jenis_tiket must have one or more objek_pendakian
 
 ## ERD Crow Foot:
+![image](https://user-images.githubusercontent.com/101303689/165088453-5de5dd45-e45c-433e-bf55-db69a5235a0a.png)
+![image](https://user-images.githubusercontent.com/101303689/165088496-7bd45962-f294-4cc2-8d5f-e16a8cbbba21.png)
