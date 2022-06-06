@@ -87,3 +87,76 @@ mysql> UPDATE mysql.user SET password=PASSWORD('new_pass') WHERE user='root'
 ```python
 $ /etc/init.d/mysql start
 ```
+
+# Select
+```python
+SELECT * FROM table;
+SELECT * FROM table1, table2;
+SELECT field1, field2 FROM table1, table2;
+SELECT ... FROM ... WHERE condition
+SELECT ... FROM ... WHERE condition GROUP BY field;
+SELECT ... FROM ... WHERE condition GROUP BY field HAVING condition2;
+SELECT ... FROM ... WHERE condition ORDER BY field1, field2;
+SELECT ... FROM ... WHERE condition ORDER BY field1, field2 DESC;
+SELECT ... FROM ... WHERE condition LIMIT 10;
+SELECT DISTINCT field1 FROM ...
+SELECT DISTINCT field1, field2 FROM ...
+```
+
+# Conditions
+```python
+field1 = value1
+field1 <> value1
+field1 LIKE 'value _ %'
+field1 IS NULL
+field1 IS NOT NULL
+field1 IS IN (value1, value2)
+field1 IS NOT IN (value1, value2)
+condition1 AND condition2
+condition1 OR condition2
+```
+
+# Restore from backup SQL File 
+```python
+mysql -u Username -p dbNameYouWant < databasename_backup.sql;
+```
+
+# Insert
+```python
+INSERT INTO table1 (field1, field2) VALUES (value1, value2);
+```
+
+# Delete
+```python
+DELETE FROM table1 / TRUNCATE table1
+DELETE FROM table1 WHERE condition
+DELETE FROM table1, table2 FROM table1, table2 WHERE table1.id1 =
+  table2.id2 AND condition
+```
+
+# Keys
+```python
+CREATE TABLE table (..., PRIMARY KEY (field1, field2))
+CREATE TABLE table (..., FOREIGN KEY (field1, field2) REFERENCES table2
+(t2_field1, t2_field2))
+```
+
+# Users and Privileges
+```python
+CREATE USER 'user'@'localhost';
+GRANT ALL PRIVILEGES ON base.* TO 'user'@'localhost' IDENTIFIED BY 'password';
+GRANT SELECT, INSERT, DELETE ON base.* TO 'user'@'localhost' IDENTIFIED BY 'password';
+REVOKE ALL PRIVILEGES ON base.* FROM 'user'@'host'; -- one permission only
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'user'@'host'; -- all permissions
+FLUSH PRIVILEGES;
+```
+
+# Main Data Types
+```python
+TINYINT (1o: -128 to +127)
+SMALLINT (2o: +-65 000)
+MEDIUMINT (3o: +-16 000 000)
+INT (4o: +- 2 000 000 000)
+BIGINT (8o: +-9.10^18)
+Precise interval: -(2^(8*N-1)) -> (2^8*N)-1
+```
