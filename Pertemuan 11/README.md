@@ -24,8 +24,7 @@ CREATE TABLE IF NOT EXISTS public.booking
 
 TABLESPACE pg_default;
 ```
-```sql
-```
+
 ```sql
 CREATE TABLE IF NOT EXISTS public.detail_booking
 (
@@ -165,3 +164,18 @@ TABLESPACE pg_default;
 ```
 
 ### DML
+```sql
+INSERT INTO public.transaksi(
+	id_transaksi, id_jenis_pemb, kode_transaksi, tanggal_transaksi, img_barcode, status)
+	VALUES (1, 1, 1, '2022-06-26', '5678897', 'paid'),(2, 1, 2, '2022-06-27', '5678898', 'paid'),(3, 2, 3, '2022-06-28', '5678898', 'unpaid');
+ ```
+ ```sql
+ INSERT INTO public.booking(
+	id_booking, id_user, tanggal_booking, status, total_harga, id_transaksi)
+	VALUES (2	1	"2022-06-27"	"pending"	30000	2
+),(3	,1	,"2022-06-24"	,"complete"	30000	,3);
+ ```
+    
+    
+    
+    
