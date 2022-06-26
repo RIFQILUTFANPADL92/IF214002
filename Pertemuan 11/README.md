@@ -175,7 +175,43 @@ INSERT INTO public.transaksi(
 	VALUES (2	1	"2022-06-27"	"pending"	30000	2
 ),(3	,1	,"2022-06-24"	,"complete"	30000	,3);
  ```
-    
-    
+  ```sql
+INSERT INTO public.kode_pos(
+	kode_pos, provinsi, kota, kecamatan, desa)
+	VALUES (54321, 'jawabarat', 'bandung', 'cipadung', 'cibiru');
+ ```
+ ```sql
+ INSERT INTO public.booking(
+	id_booking, id_user, tanggal_booking, status, total_harga, id_transaksi)
+	VALUES (6, 2, '2020-04-04', 'complete', 7000, 2);
+INSERT INTO public.booking(
+	id_booking, id_user, tanggal_booking, status, total_harga, id_transaksi)
+	VALUES (5, 2, '2019-04-04', 'complete', 6000, 2);
+INSERT INTO public.booking(
+	id_booking, id_user, tanggal_booking, status, total_harga, id_transaksi)
+	VALUES (4, 2, '2021-04-04', 'complete', 5000, 2)
+INSERT INTO public.booking(
+	id_booking, id_user, tanggal_booking, status, total_harga, id_transaksi)
+	VALUES (3, 2, '2022-06-24', 'complete', 3000, 2);
+INSERT INTO public.booking(
+	id_booking, id_user, tanggal_booking, status, total_harga, id_transaksi)
+	VALUES (2, 2, '2022-06-27', 'complete', 30000, 2);
+INSERT INTO public.booking(
+	id_booking, id_user, tanggal_booking, status, total_harga, id_transaksi)
+	VALUES (1, 2, '2022-04-04', 'complete', 3000, 2);
+ ```
+ 
+### DQL
+```sql
+select 
+
+total_harga AS jumlah_booking,
+tanggal_booking
+   
+
+
+from booking
+```
+
     
     
