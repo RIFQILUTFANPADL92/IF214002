@@ -1,6 +1,6 @@
 # Aplikasi Tiketku
 
-Aplikasi ini bertujuan untuk memudahkan pendaki membeli tiket di Gunung Cikuray
+Aplikasi ini berfokus untuk mempermudah simaksi / Booking tiket online Gunung Cikuray yang di sertakan fitur transaksi. Yang dinamakan Booking Online Gunung Cikuray. Beberapa fitur yang menjadi poin penting aplikasi in diantaranya:
 
 ## Fitur Utama
 
@@ -9,9 +9,9 @@ Aplikasi ini bertujuan untuk memudahkan pendaki membeli tiket di Gunung Cikuray
 - Fitur slot penuh yang otomatis akan menutup laman sehingga pengguna tidak dapat membooking di hari yang sedang penuh.
 - Booking Online dengan cepat langsung dari aplikasi dan melakukan transaksi saat itu juga.
 
-## ERD
+## Diagram
 
-![165088713-a1c0b387-efe2-44c1-9c2e-f11f19fa3983](https://user-images.githubusercontent.com/101303689/177762113-5436be18-bf60-44db-b1d5-1367c925d418.png)
+![165088453-5de5dd45-e45c-433e-bf55-db69a5235a0a](https://user-images.githubusercontent.com/101303689/177764795-6c2b7623-4728-4db6-b519-fa5ee3fcb2e2.png)
 
 ## DDL, DML, DQL
 
