@@ -12,7 +12,7 @@ $dbname = "tiketku";
 	
   $request = $_SERVER['REQUEST_URI'];
   
-  function ambilSemuaDataKomiku($host, $dbuser, $dbpass, $port, $dbname) {
+  function ambilSemuaDataTiketku($host, $dbuser, $dbpass, $port, $dbname) {
     try {
 			
       // Coba dulu apa yang ada di sini,
