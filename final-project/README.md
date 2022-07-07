@@ -20,7 +20,7 @@ Berikut merupakan video youtube yang sudah saya buat berdasarkan aplikasi ini
 
 ## Screenshot Webservice Jenis Tiket
 
-![image](https://user-images.githubusercontent.com/101303689/177759018-c0b742c3-5410-46cc-9317-c92690c352f3.png)
+![image](https://user-images.githubusercontent.com/101303689/177760086-56b7d3d3-2c64-4cbd-b055-a7e6cb0f1865.png)
 
 ## Screenshot Webservice Jenis Transaksi
 
