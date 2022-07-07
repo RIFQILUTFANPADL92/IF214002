@@ -39,6 +39,6 @@ $dbname = "tiketku";
       echo "Sebab gagalnya: " . $e->getMessage();
     }
   }
-      ambilSemuaDataKomiku($host, $dbuser, $dbpass, $port, $dbname);  
+      ambilSemuaDataTiketku($host, $dbuser, $dbpass, $port, $dbname);  
   
 ?>
