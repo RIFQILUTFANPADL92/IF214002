@@ -11,7 +11,9 @@ Aplikasi ini berfokus untuk mempermudah simaksi / Booking tiket online Gunung Ci
 
 ## Diagram
 
-![165088453-5de5dd45-e45c-433e-bf55-db69a5235a0a](https://user-images.githubusercontent.com/101303689/177764795-6c2b7623-4728-4db6-b519-fa5ee3fcb2e2.png)
+![165088453-5de5dd45-e45c-433e-bf55-db69a5235a0a](https://user-images.githubusercontent.com/101303689/177764922-9b1ab2d3-1237-413b-ada6-5891bb51914f.png)
+
+![165088496-7bd45962-f294-4cc2-8d5f-e16a8cbbba21](https://user-images.githubusercontent.com/101303689/177765010-e0202293-c489-4ae1-bdf0-d3f1ec1c48af.png)
 
 ## DDL, DML, DQL
 
